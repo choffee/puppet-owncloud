@@ -1,7 +1,8 @@
 language: ruby
 rvm:
   - 1.9.3
-script: "rake spec"
+#script: "rake spec"
+task: default => [:spec, :lint]
 branches:
   only:
     - master
