@@ -29,13 +29,14 @@
 #
 # === Authors
 #
-# Author Name <author@domain.com>
+# John Cooper <john@choffee.co.uk>
 #
 # === Copyright
 #
-# Copyright 2014 Your name here, unless otherwise noted.
+# Copyright 2014 John Cooper
 #
 class owncloud {
 
+  include owncloud::params
 
 }
