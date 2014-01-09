@@ -2,7 +2,8 @@ language: ruby
 rvm:
   - 1.9.3
 #script: "rake spec"
-task: default => [:spec, :lint]
+#task: default => [:spec, :lint]
+script: "bundle exec rake spec SPEC_OPTS='--format documentation'"
 branches:
   only:
     - master
